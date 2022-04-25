@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "sass assets/css/styles.scss assets/css/styles.css --load-path=node_modules --verbose --update"
+  },
+  "dependencies": {
+    "@carbon/grid": "^10.43.1",
+    "hiq": "^4.2.2",
+    "sass": "^1.50.1"
+  }
+}

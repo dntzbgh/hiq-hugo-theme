@@ -1,0 +1,14 @@
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cevz</title>
+    {{ $styles:=slice
+    (resources.Get "css/styles.css" | minify )
+    }}
+    {{range $styles}}
+    <link href="{{.Permalink  }}" rel="stylesheet" type="text/css"/>
+    {{end}}
+<!--    <link href="{{ .Site.BaseURL }}css/styles.scss" rel="stylesheet" type="text/css"/>-->
+
+</head>

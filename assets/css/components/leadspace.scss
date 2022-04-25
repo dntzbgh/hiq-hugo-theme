@@ -1,0 +1,8 @@
+
+.leadspace{
+  min-height: 100vh;
+  position: relative;
+  margin: 0 calc(-1* var(--hiq-container-horizontal-gap));
+  padding: var(--hiq-container-horizontal-gap);
+  background: #c9afaf;
+}
